@@ -34,6 +34,7 @@ providers they should work with just a config change to Db2Fog.
     :aws_secret_access_key => 'yoursecretkey',
     :directory             => 'bucket-name',
     :provider              => 'AWS'
+    :region                => 'region'
   }
 
 === Rackspace Cloudfiles

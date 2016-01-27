@@ -1,11 +1,11 @@
 Gem::Specification.new do |s|
   s.name              = "db2fog"
-  s.version           = "0.7.0"
+  s.version           = "0.9.0"
   s.summary           = "db2fog provides rake tasks for backing up and restoring your DB to cloud storage providers"
   s.description       = "db2fog provides rake tasks for backing up and restoring your DB to cloud storage providers"
-  s.author            = "James Healy"
-  s.email             = ["james@yob.id.au"]
-  s.homepage          = "http://github.com/yob/db2fog"
+  s.author            = ["James Healy", "Alexander Bobrov", "Denis Erofeev"]
+  s.email             = ["support@itbeaver.co"]
+  s.homepage          = "https://github.com/itbeaver/db2fog"
   s.has_rdoc          = true
   s.rdoc_options      << "--title" << "DB2Fog" << "--line-numbers"
   s.files             = Dir.glob("lib/**/*") + ["README.rdoc", "HISTORY"]

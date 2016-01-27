@@ -2,7 +2,7 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [yob](https://github.com/yob/db2fog) and [itbeaver](http://itbeaver.co).
 
-## [Unreleased]
+## [0.9.0]
 ### Added
 - Support ruby version >= 2.0 and rails (active_record) verison >=3.2.0 && <5.0 
 
@@ -86,7 +86,7 @@ This project adheres to [yob](https://github.com/yob/db2fog) and [itbeaver](http
 ### Added
 - Keep old backups around
 
-[Unreleased]: https://github.com/itbeaver/db2fog/compare/v0.8.0...HEAD
+[0.9.0]: https://github.com/itbeaver/db2fog/compare/v0.8.0...0.9.0
 [0.8.0]: https://github.com/itbeaver/db2fog/compare/v0.7.0...0.8.0
 [0.7.0]: https://github.com/itbeaver/db2fog/compare/v0.6.0...0.7.0
 [0.6.0]: https://github.com/itbeaver/db2fog/compare/v0.5.4...0.6.0
