@@ -11,9 +11,10 @@ Gem::Specification.new do |s|
   s.files             = Dir.glob("lib/**/*") + ["README.rdoc", "HISTORY"]
   s.required_rubygems_version = ">=1.3.2"
   s.required_ruby_version = ">=2.0.0"
-
+  
   s.add_dependency("rails", ['>=3.2.0', '<5.0'])
   s.add_dependency("activerecord", ['>=3.2.0', '<5.0'])
+
   s.add_dependency("fog", "~> 1.0")
 
   s.add_development_dependency("rake")
