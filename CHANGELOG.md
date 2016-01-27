@@ -1,6 +1,6 @@
 # Change Log
 All notable changes to this project will be documented in this file.
-This project adheres to [itbeaver](http://itbeaver.co).
+This project adheres to [yob](https://github.com/yob/db2fog) and [itbeaver](http://itbeaver.co).
 
 ## [0.9.0] - 2016-01-26
 ### Added
@@ -85,15 +85,3 @@ This project adheres to [itbeaver](http://itbeaver.co).
 ## [0.2.3]
 ### Added
 - Keep old backups around
-
-
-
-
-
-
-
-
-
-
-
-
