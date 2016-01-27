@@ -14,6 +14,7 @@ Gem::Specification.new do |s|
 
   s.add_dependency("rails", ['>=3.2.0', '<5.0'])
   s.add_dependency("activerecord", ['>=3.2.0', '<5.0'])
+
   s.add_dependency("fog", "~> 1.0")
 
   s.add_development_dependency("rake")
