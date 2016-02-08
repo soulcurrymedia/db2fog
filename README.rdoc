@@ -33,7 +33,7 @@ providers they should work with just a config change to Db2Fog.
     :aws_access_key_id     => 'yourkey',
     :aws_secret_access_key => 'yoursecretkey',
     :directory             => 'bucket-name',
-    :provider              => 'AWS'
+    :provider              => 'AWS',
     :region                => 'region'
   }
 
