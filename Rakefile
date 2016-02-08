@@ -4,6 +4,7 @@ Bundler.setup
 
 require 'rake'
 require 'rspec/core/rake_task'
+require "bundler/gem_tasks"
 
 desc "Default Task"
 task :default => [ :spec ]
