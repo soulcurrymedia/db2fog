@@ -3,7 +3,7 @@
 require 'active_support'
 require 'active_support/core_ext/class/attribute_accessors'
 require 'active_support/core_ext/hash/except'
-require 'fog'
+require 'fog/aws'
 require 'tempfile'
 require 'db2fog/railtie'
 
