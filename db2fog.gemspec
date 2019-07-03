@@ -7,15 +7,14 @@ Gem::Specification.new do |s|
   s.authors           = ["James Healy", "Alexander Bobrov", "Denis Erofeev"]
   s.email             = ["support@itbeaver.co"]
   s.homepage          = "https://github.com/itbeaver/db2fog"
-  s.has_rdoc          = true
   s.rdoc_options      << "--title" << "DB2Fog" << "--line-numbers"
   s.files             = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
 
   s.required_rubygems_version = ">=1.3.2"
   s.required_ruby_version = ">=2.0.0"
 
-  s.add_dependency("rails", ['>=3.2.0', '<5.2'])
-  s.add_dependency("activerecord", ['>=3.2.0', '<5.2'])
+  s.add_dependency("rails", ['>=3.2.0', '~> 5.2'])
+  s.add_dependency("activerecord", ['>=3.2.0', '~> 5.2'])
 
   s.add_dependency("fog-aws", "~> 3.0")
 
