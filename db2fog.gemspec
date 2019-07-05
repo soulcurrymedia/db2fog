@@ -13,8 +13,8 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = ">=1.3.2"
   s.required_ruby_version = ">=2.0.0"
 
-  s.add_dependency("rails", ['>=3.2.0', '~> 5.2'])
-  s.add_dependency("activerecord", ['>=3.2.0', '~> 5.2'])
+  s.add_dependency("rails")
+  s.add_dependency("activerecord", ['>=3.2.0'])
 
   s.add_dependency("fog-aws", "~> 3.0")
 
